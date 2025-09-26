@@ -11,11 +11,13 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write src/",
-    "start": "node src/componants/scriptNul.js"
+    "start": "node src/scraper/express.js"
   },
   "dependencies": {
     "axios": "^1.12.2",
     "cheerio": "^1.1.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
     "vue": "^3.5.18"
   },
   "devDependencies": {
